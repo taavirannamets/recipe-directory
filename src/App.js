@@ -7,7 +7,7 @@ import Search from './routes/search'
 import Recipe from './routes/recipe'
 
 // Components
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 
 // Styles
 import './App.css'
