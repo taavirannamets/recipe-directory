@@ -6,6 +6,9 @@ import Create from './routes/create'
 import Search from './routes/search'
 import Recipe from './routes/recipe'
 
+// Components
+import Navbar from './components/navbar'
+
 // Styles
 import './App.css'
 
@@ -13,6 +16,7 @@ function App() {
 	return (
 		<div className='App'>
 			<BrowserRouter>
+				<Navbar />
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/create' element={<Create />} />
