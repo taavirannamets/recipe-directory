@@ -1,5 +1,5 @@
 .create {
-	color: #555;
+	color: var(--medium);
 	max-width: 480px;
 	margin: 60px auto;
 }
@@ -18,11 +18,11 @@
 	display: block;
 	width: 200px;
 	font-size: 1em;
-	color: #fff;
+	color: var(--white);
 	padding: 16px 20px;
 	border: 0;
 	border-radius: 4px;
-	background-color: #58249c;
+	background-color: var(--main);
 	cursor: pointer;
 	text-decoration: none;
 	margin: 30px auto;
@@ -46,7 +46,7 @@
 .ingredients button {
 	margin: 0 0 0 10px;
 	padding: 8px 20px;
-	background-color: #249c5e;
+	background-color: var(--secondary);
 }
 
 .ingredients-added::after {

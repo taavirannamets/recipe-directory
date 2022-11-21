@@ -22,6 +22,7 @@ export default function Searchbar() {
 					type='text'
 					id='search'
 					placeholder='Search recipes...'
+					autoComplete='off'
 					onChange={e => setTerm(e.target.value)}
 					required
 				/>

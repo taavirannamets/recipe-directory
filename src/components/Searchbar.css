@@ -6,3 +6,7 @@
 .searchbar input {
 	margin-left: 10px;
 }
+
+.searchbar input::placeholder {
+	color: var(--light);
+}

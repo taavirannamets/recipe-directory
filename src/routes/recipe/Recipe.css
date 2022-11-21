@@ -1,8 +1,8 @@
 .recipe {
 	max-width: 1200px;
-	margin: 40px auto;
+	margin: 60px auto;
 	text-align: center;
-	background: #fff;
+	background: var(--white);
 	padding: 40px;
 	box-sizing: border-box;
 }
@@ -15,7 +15,7 @@
 .recipe li {
 	list-style-type: none;
 	margin-right: 10px;
-	color: #777;
+	color: var(--medium);
 }
 .recipe li::after {
 	content: ',';

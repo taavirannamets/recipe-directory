@@ -7,8 +7,8 @@
 }
 
 .recipe-list .card {
-	background: #fff;
-	color: #333;
+	background: var(--white);
+	color: var(--dark);
 	padding: 20px;
 	border-radius: 4px;
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
@@ -21,27 +21,27 @@
 }
 
 .recipe-list .card h3 {
-	color: #555;
+	color: var(--dark);
 	margin-bottom: 6px;
 }
 
 .recipe-list .card p {
-	color: #999;
+	color: var(--light);
 	font-size: 0.9em;
 }
 
 .recipe-list .card div {
-	color: #555;
+	color: var(--medium);
 	font-size: 0.7em;
 	margin: 20px 0;
 	line-height: 1.5em;
 }
 
 .recipe-list .card a {
-	color: #555;
+	color: var(--medium);
 	text-decoration: none;
 	display: block;
-	background: #e2e2e2;
+	background: var(--extra-light);
 	font-size: 0.9em;
 	width: 100px;
 	text-align: center;
@@ -52,6 +52,6 @@
 }
 
 .recipe-list .card a:hover {
-	color: #fff;
-	background: #58249c;
+	color: var(--white);
+	background: var(--main);
 }

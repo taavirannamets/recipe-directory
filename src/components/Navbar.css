@@ -1,7 +1,7 @@
 .navbar {
-	background: #58249c;
+	background: var(--main);
 	padding: 20px;
-	color: #fff;
+	color: var(--white);
 }
 
 .navbar nav {
@@ -13,20 +13,20 @@
 
 .navbar a.brand {
 	margin-right: auto;
-	color: #fff;
+	color: var(--white);
 	text-decoration: none;
 }
 
 .navbar a:last-child {
-	color: #fff;
+	color: var(--white);
 	text-decoration: none;
 	margin-left: 40px;
 	padding: 8px;
-	border: 1px solid #fff;
+	border: 1px solid var(--white);
 	border-radius: 4px;
 }
 
 .navbar a:last-child:hover {
-	background: #fff;
-	color: #58249c;
+	background: var(--white);
+	color: var(--main);
 }
