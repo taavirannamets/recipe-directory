@@ -12,12 +12,12 @@ export default function Create() {
 	const [newIngredient, setNewIngredient] = useState('')
 	const [ingredients, setIngredients] = useState([])
 	const ingredientInput = useRef(null)
-	const navigate = useNavigate()
 
 	const url = 'http://localhost:3000/recipes'
 	const { postData, data, error } = useFetch(url, 'POST')
+	const navigate = useNavigate()
 
-	const handleSubmit = e => {
+	const handleSubmit = async e => {
 		e.preventDefault()
 		postData({
 			title,

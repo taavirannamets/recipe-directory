@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 
 export const useFetch = (url, method = 'GET') => {
 	const [data, setData] = useState(null)
@@ -37,26 +37,26 @@ export const useFetch = (url, method = 'GET') => {
 				setError(null)
 			} catch (err) {
 				if (err.name === 'AbortError') {
-					console.log('The fetch was aborted.')
+					console.log('the fetch was aborted')
 				} else {
 					setIsPending(false)
-					setError('Could not fetch the data.')
-					console.log(err.message)
+					setError('Could not fetch the data')
 				}
 			}
 		}
 
-		if ((method = 'GET')) {
+		// Invoke the function
+		if (method === 'GET') {
 			fetchData()
 		}
-		if ((method = 'POST' && options)) {
+		if (method === 'POST' && options) {
 			fetchData(options)
 		}
 
 		return () => {
 			controller.abort()
 		}
-	}, [url, options, method])
+	}, [url, method, options])
 
 	return { data, isPending, error, postData }
 }
