@@ -3,14 +3,17 @@
 	max-width: 480px;
 	margin: 60px auto;
 }
+
 .create label span:first-child {
 	display: block;
 	margin: 30px 0 10px;
 }
+
 .create p {
 	margin-top: 10px;
 	font-size: 0.8em;
 }
+
 .create button {
 	display: block;
 	width: 200px;
@@ -33,4 +36,22 @@
 .cooking-time input {
 	width: 100px;
 	margin-right: 10px;
+}
+
+.ingredients {
+	display: flex;
+	align-items: center;
+}
+
+.ingredients button {
+	margin: 0 0 0 10px;
+	padding: 8px 20px;
+	background-color: #249c5e;
+}
+
+.ingredients-added::after {
+	content: ', ';
+}
+.ingredients-added:last-child::after {
+	content: '';
 }
