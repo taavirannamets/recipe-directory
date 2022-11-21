@@ -8,6 +8,7 @@ import Recipe from './routes/recipe'
 
 // Components
 import Navbar from './components/Navbar'
+import ThemeSelector from './components/ThemeSelector'
 
 // Styles
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
 		<div className='App'>
 			<BrowserRouter>
 				<Navbar />
+				<ThemeSelector />
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/create' element={<Create />} />
