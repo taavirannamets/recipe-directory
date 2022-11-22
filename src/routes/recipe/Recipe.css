@@ -27,3 +27,24 @@
 	text-align: left;
 	line-height: 1.5em;
 }
+
+.recipe.dark {
+	background: var(--dark);
+	color: var(--white);
+}
+
+.recipe.dark h1 {
+	color: var(--white);
+}
+
+.recipe.dark p {
+	color: var(--medium);
+}
+
+.recipe.dark li {
+	color: var(--light);
+}
+
+.recipe.dark .method {
+	color: var(--white);
+}
