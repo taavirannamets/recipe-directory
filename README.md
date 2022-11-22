@@ -6,7 +6,7 @@
 
 ### `npm start`
 
-![Screenshot](/src/other/src1.png)
-![Screenshot](/src/other/src2.png)
-![Screenshot](/src/other/src3.png)
-![Screenshot](/src/other/src4.png)
+![Screenshot](/src/other/scr1.png)
+![Screenshot](/src/other/scr2.png)
+![Screenshot](/src/other/scr3.png)
+![Screenshot](/src/other/scr4.png)
